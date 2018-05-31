@@ -1,6 +1,6 @@
 ## Files to load
-set bootstrapFile       "sama5d4_xplained-nandflashboot-uboot-3.7.bin"
-set ubootFile           "u-boot-sama5d4_xplained_nandflash.bin"
+set bootstrapFile       "sama5d4_xplained-nandflashboot-uboot-3.8.8.bin"
+set ubootFile           "u-boot.bin"
 set kernelFile          "zImage"
 set rootfsFile          "rootfs.ubi"
 
