@@ -142,10 +142,10 @@ To host the python server, requires AMI Linux virtual machine. Amazon EC2 instan
  Once EC2 instace ready and running, modify the EC2 instance name as required like "miwi_wsn_demo". 
  
  - To connect with EC2 instance Virtual Linux machine, select connect.
- ![GitHub Logo](/wilc_demo/wilc_sama5d2_xpro_miwi_bridge/Images/Connect_EC2.JPG)
+    ![GitHub Logo](https://github.com/linux4wilc/wilc_demo/blob/master/wilc_sama5d2_xpro_miwi_bridge/Images/Connect_EC2.JPG)
  
  - EC2 instance connection credentials for Windows and Linux machine. 
- ![GitHub Logo](/wilc_demo/wilc_sama5d2_xpro_miwi_bridge/Images/EC2_Connect_Procedure.png)
+     ![GitHub Logo](https://github.com/linux4wilc/wilc_demo/blob/master/wilc_sama5d2_xpro_miwi_bridge/Images/EC2_Connect_Procedure.png)
  
  - EC2 instance connection from Windows machine using PuTTY, procedures are mentioned AWS user guide. 
        - https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/putty.html?icmpid=docs_ec2_console
@@ -166,7 +166,7 @@ When the EC2 instance console copied with `$ miwi_wsn_server.py` python scripts 
          python miwi_wsn_server.py &
          ```
  In this demo, only one MiWi bridge allowed to connect and multiple WSN monitor Tool allowed to connect remotely.
- ![GitHub Logo](/wilc_demo/wilc_sama5d2_xpro_miwi_bridge/Images/TCP_Server_Start.png)
+   ![GitHub Logo](https://github.com/linux4wilc/wilc_demo/blob/master/wilc_sama5d2_xpro_miwi_bridge/Images/TCP_Server_Start.png)
  
 # MiWi Setup
 For MiWi WSN Demo, minimum required Nos of SAMR30 XPRO boards are 5 for validating demo. As part of the demo package, MiWi demo images are loaded in `$ miwi_demo_images` folder. Flash the image in SAMR30 Xplained Pro boards and tag them with respective configuration.
@@ -185,7 +185,7 @@ Before running the MiWi TCP clinet python script, EC2 instance TCP python server
 In the MiWi TCP clinet script file, `$ SERVER_IP` address to be modified  based on the EC2 instance public IP adddress.
 EC2 instane public IP address available in the corresponding EC2 instance Description page.
 
-![GitHub Logo](/wilc_demo/wilc_sama5d2_xpro_miwi_bridge/Images/EC2_Instance_Public_IP_Address.JPG)
+  ![GitHub Logo](https://github.com/linux4wilc/wilc_demo/blob/master/wilc_sama5d2_xpro_miwi_bridge/Images/EC2_Instance_Public_IP_Address.JPG)
 
 TCP port number `$ SERVER_MIWI_NW_CLIENT_PORT = 6666` is used in MiWi TCP clinet script. Using other than this port number is possible. In this case same port number to be modified in the `$ miwi_wsn_server.py` as well.
 
@@ -199,7 +199,7 @@ When SAMA5D2 target board with WILC1000 WiFi module connected with Accesspoint w
        ```
 If EC2 TCP server stated already and running, TCP clinet connects sucessfully. MiWi WSN data from the MiWi PAN-Coordinator received in `$ /dev/ttyACM0` UART port and same will be transferred to EC2 TCP server. 
 
-![GitHub Logo](/wilc_demo/wilc_sama5d2_xpro_miwi_bridge/Images/TCP_Clinet_Start.png)
+   ![GitHub Logo](https://github.com/linux4wilc/wilc_demo/blob/master/wilc_sama5d2_xpro_miwi_bridge/Images/TCP_Client_Start.png)
 
 # WSN Monitor Tool
 WSN Monitor tool is Microchip proprietary tool for 802.15.4 network monitor and contorl. In this tool, MiWi network connection with respective nodes will be displayed.
@@ -208,11 +208,11 @@ To connect with EC2 server, EC2 instance public IP address is required. EC2 inst
 Port number for WSN monitor tool connection is `$ 8080` 
 Once WSN Monitor tool connected, EC2 server will forward the packet which is received from MiWi clinet network.
 
-![GitHub Logo](/wilc_demo/wilc_sama5d2_xpro_miwi_bridge/Images/WSN_Monitor_Connection.JPG)
+  ![GitHub Logo](https://github.com/linux4wilc/wilc_demo/blob/master/wilc_sama5d2_xpro_miwi_bridge/Images/WSN_Monitor_Connection.JPG)
 
 After the successful connection with EC2 server, WSN monitor starts receiving the MiWi network data's and displays.
 
-![GitHub Logo](/wilc_demo/wilc_sama5d2_xpro_miwi_bridge/Images/WSN_Network.png)
+  ![GitHub Logo](https://github.com/linux4wilc/wilc_demo/blob/master/wilc_sama5d2_xpro_miwi_bridge/Images/WSN_Network.png)
 
 Using WSN Monitor tool, MiWi network LED's can be controlled. 
 
