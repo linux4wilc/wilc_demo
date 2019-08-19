@@ -41,9 +41,8 @@ MiWi applications are used from ASF release and Linux kernel is used for WiFi co
 ![](https://www.microchip.com/ResourcePackages/Microchip/assets/dist/images/logo.png)
 
 ## Demo Building Blocks & Flow
-![GitHub Logo](/wilc_demo/wilc_sama5d2_xpro_miwi_bridge/Images/Block-Daigram.png)
-![GitHub Logo](/wilc_demo/wilc_sama5d2_xpro_miwi_bridge/Images/Block-Daigram.png)
-![GitHub Logo](/Images/Block-Daigram.png)
+
+![GitHub Logo](https://github.com/linux4wilc/wilc_demo/blob/master/wilc_sama5d2_xpro_miwi_bridge/Images/Block-Daigram.png)
 
 ## MiWi Network
 - MiWi Network consist of PAN-Coordinator, Router or coordinator, End-device.
