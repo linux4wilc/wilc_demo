@@ -58,7 +58,7 @@ SerialConnection {
 
 		// erase then write files
 		print("-I- === Load AT91Bootstrap ===")
-		eraseWrite(0x00000000, "sama5d4_xplained-nandflashboot-uboot-3.8.8.bin", true)
+		eraseWrite(0x00000000, "sama5d4-nandflashboot-uboot-4.0.0.bin", true)
 
 		print("-I- === Load u-boot environment ===")
 		//erase redundant env to be in a clean and known state
