@@ -1,4 +1,4 @@
-***Note: This demo/tool uses a WILC driver from the deprecated repository linux4wilc. The new driver repository is located at [linux4sam]( https://github.com/linux4sam/linux-at91/tree/master/drivers/staging/wilc1000).***
+***Note: This demo/tool uses a WILC driver from the deprecated repository linux4wilc. The new driver repository is located at [linux4microchip](https://github.com/linux4microchip/linux/tree/master/drivers/net/wireless/microchip/wilc1000)***
 
 # WILC Linux Applications Package with SAMA5D27-SOM1-EK1:
 buildroot_external.zip : External buildroot
